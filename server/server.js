@@ -49,6 +49,18 @@ app.get('/parks/:id', async (req, res) => {
   }
 })
 
+app.post('/reviews/:id', async (req, res) => {
+  try {
+    const review = await new Review(req.body)
+    await review.save()
+    return res.status(201).json({
+      review
+    })
+  } catch (error) {
+    return res.status(500).json({ error: error.message })
+  }
+})
+
 app.listen(PORT, () => {
   console.log(`Express server listening on port ${PORT}`)
 })
