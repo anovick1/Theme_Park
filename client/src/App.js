@@ -29,7 +29,6 @@ const App = () => {
 
   return (
     <div>
-      <Header />
       <main>
         <Routes>
           <Route path="/" element={<Home parks={parks} />} />
