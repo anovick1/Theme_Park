@@ -1,6 +1,3 @@
-import { useNavigate } from 'react-router-dom'
-import { Link } from 'react-router-dom'
-
 const ReviewCard = (props) => {
   let arr = []
   for (let i = 0; i < props.reviews.length; i++) {
