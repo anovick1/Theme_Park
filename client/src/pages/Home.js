@@ -1,6 +1,4 @@
 import ParkCard from '../components/ParkCard'
-import axios from 'axios'
-import { useState, useEffect } from 'react'
 
 const Home = (props) => {
   return (
