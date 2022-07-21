@@ -1,8 +1,20 @@
 import './styles/App.css'
 import { Route, Routes } from 'react-router-dom'
+import React, { useState } from 'react'
+import Home from './components/Home'
+import { Route, Routes } from 'react-router-dom'
+import Header from './components/Header';
 
-function App() {
-  return <div className="App"></div>
-}
+const App = () => {
+  return (
 
-export default App
+<div>
+<Header />
+<main>
+  <Routes>
+    <Route path="/" element={ <Home />} />
+  </Routes>
+</main>
+</div>
+  )}
+
