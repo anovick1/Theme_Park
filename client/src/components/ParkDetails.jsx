@@ -21,29 +21,19 @@ const ParkDetails = (props) => {
           <h1>{park.name}</h1>{' '}
         </a>
         <img src={park.image} alt={park.name} />
-        <div
-          style={{
-            minWidth: '30em',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-        ></div>
+
+        <h3>Address: {park.address}</h3>
       </div>
-      <div className="info-wrapper">
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <h3>Address: {park.address}</h3>
-        </div>
-        <p>{park.description}</p>
-      </div>
-      <div>
+      <div className="reviews">
+        <h1>Reviews</h1>
         <ReviewCard reviews={props.reviews} id={id} />
       </div>
-      <div>
+      <div className="review-form">
         <ReviewForm id={id} reviews={props.reviews} />
       </div>
-
-      <Link to="/">Back</Link>
+      <div className="back">
+        <Link to="/">Back</Link>
+      </div>
     </div>
   ) : null
 }
