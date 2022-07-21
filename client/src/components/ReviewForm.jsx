@@ -34,7 +34,7 @@ const ReviewForm = (props) => {
   }
 
   return (
-    <div>
+    <div className="form">
       <h1>Add A New Review Listing</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -46,24 +46,31 @@ const ReviewForm = (props) => {
         />
         <input
           type="text"
-          value={newReview.img}
+          value={newReview.location}
           onChange={handleChange}
-          name={'img'}
-          placeholder={'image'}
+          name={'location'}
+          placeholder={'hometown'}
         />
         <input
           type="text-area"
-          value={newReview.description}
+          value={newReview.text}
           onChange={handleChange}
-          name={'description'}
-          placeholder={'description'}
+          name={'text'}
+          placeholder={'write review here'}
         />
         <input
           type="text"
-          value={newReview.price}
+          value={newReview.date}
           onChange={handleChange}
-          name={'price'}
-          placeholder={'price'}
+          name={'date'}
+          placeholder={'date visited'}
+        />
+        <input
+          type="text"
+          value={newReview.rating}
+          onChange={handleChange}
+          name={'rating'}
+          placeholder={'rating out of 5'}
         />
         <button>Submit</button>
       </form>
