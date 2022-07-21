@@ -4,18 +4,25 @@ body {
 
 img {
   width: 25vw;
-  height: 15vh;
+  height: 20vh;
+  align-items: center;
+}
+h1 {
+  text-align: center;
 }
 
+
 .park-list {
-  display: flex;
-  width: 80vw;
-  height: 90vh;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
-  align-items: center;
+  padding: 2em 4em;
+  display: grid;
+  grid-template-columns: repeat(2, 40vw );
+  grid-gap: 5vw;
+  cursor: pointer;
+  text-align: center;
+}
+.park {
+  border: 5px solid black;
+  padding-top: 2vh
 }
 
 .detail-header {
