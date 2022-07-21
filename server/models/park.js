@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const Park = new Schema(
+const parkSchema = new Schema(
   {
     name: { type: String, required: true },
     address: { type: String, required: true },
@@ -11,4 +11,4 @@ const Park = new Schema(
   { timestamps: true }
 )
 
-module.exports = mongoose.model('park', Park)
+module.exports = parkSchema
