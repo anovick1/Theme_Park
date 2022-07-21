@@ -17,6 +17,9 @@ const ParkDetails = (props) => {
   return park ? (
     <div className="detail">
       <div className="detail-header">
+        <a href={park.url}>
+          <h1>{park.name}</h1>{' '}
+        </a>
         <img src={park.image} alt={park.name} />
         <div
           style={{
@@ -25,19 +28,16 @@ const ParkDetails = (props) => {
             justifyContent: 'center',
             alignItems: 'center'
           }}
-        >
-          <h1>{park.name}</h1>
-        </div>
+        ></div>
       </div>
       <div className="info-wrapper">
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <h3>Price: ${park.price}</h3>
-          <h3>park ID: {park._id}</h3>
+          <h3>Address: {park.address}</h3>
         </div>
         <p>{park.description}</p>
       </div>
       <div>
-        <ReviewCard reviews={props.reviews} />
+        <ReviewCard reviews={props.reviews} id={id} />
       </div>
       <div>
         <ReviewForm id={id} reviews={props.reviews} />
