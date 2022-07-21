@@ -25,6 +25,10 @@ h1 {
   padding-top: 2vh;
 }
 
+.park:hover {
+  border: 5px dotted black;
+}
+
 .detail-header {
   text-align: center;
   background-color: lightblue;
