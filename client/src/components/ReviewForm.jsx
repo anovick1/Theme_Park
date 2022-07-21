@@ -1,31 +1,46 @@
 import { useNavigate } from 'react-router-dom'
 import React, { useState } from 'react'
+import axios from 'axios'
 
 const ReviewForm = (props) => {
-  const [newReview, setNewReview] = useState({
-    name: '',
-    location: '',
-    park: props.id,
-    text: '',
-    date: '7/21/2022',
-    rating: ''
-  })
+  const [name, setName] = useState('')
+  const [location, setLocation] = useState('')
+  const [text, setText] = useState('')
+  const [date, setDate] = useState('')
+  const [rating, setRating] = useState('')
 
-  const addReview = (e) => {
-    e.preventDefault()
-    const currentReviews = props.reviews
-    const createdReview = {
-      ...newReview,
-      id: parseInt(props.reviews.length + 1),
-      price: parseInt(newReview.price)
-    }
-    currentReviews.push(createdReview)
-    props.setReviews(currentReviews)
-    setNewReview({ id: '', name: '', img: '', description: '', price: '' })
+  const addReview = async (e) => {
+    await axios.post('http://localhost:3001/reviews/' + props.id, {
+      name: name,
+      location: location,
+      park: props.id,
+      text: text,
+      date: date,
+      rating: rating
+    })
+
+    setName('')
   }
 
-  const handleChange = (e) => {
-    setNewReview({ ...newReview, [e.target.name]: e.target.value })
+  const changeName = (event) => {
+    let n = event.target.value
+    setName(n)
+  }
+  const changeLocation = (event) => {
+    let n = event.target.value
+    setLocation(n)
+  }
+  const changeText = (event) => {
+    let n = event.target.value
+    setText(n)
+  }
+  const changeDate = (event) => {
+    let n = event.target.value
+    setDate(n)
+  }
+  const changeRating = (event) => {
+    let n = event.target.value
+    setRating(n)
   }
 
   const handleSubmit = (e) => {
@@ -39,36 +54,36 @@ const ReviewForm = (props) => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          value={newReview.name}
-          onChange={handleChange}
+          value={name}
+          onChange={changeName}
           name={'name'}
           placeholder={'name'}
         />
         <input
           type="text"
-          value={newReview.location}
-          onChange={handleChange}
+          value={location}
+          onChange={changeLocation}
           name={'location'}
           placeholder={'hometown'}
         />
         <input
           type="text-area"
-          value={newReview.text}
-          onChange={handleChange}
+          value={text}
+          onChange={changeText}
           name={'text'}
           placeholder={'write review here'}
         />
         <input
           type="text"
-          value={newReview.date}
-          onChange={handleChange}
+          value={date}
+          onChange={changeDate}
           name={'date'}
           placeholder={'date visited'}
         />
         <input
-          type="text"
-          value={newReview.rating}
-          onChange={handleChange}
+          type="number"
+          value={rating}
+          onChange={changeRating}
           name={'rating'}
           placeholder={'rating out of 5'}
         />

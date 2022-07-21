@@ -26,11 +26,12 @@ const ParkDetails = (props) => {
       </div>
       <div className="reviews">
         <h1>Reviews</h1>
+        <div className="review-form">
+          <ReviewForm id={id} reviews={props.reviews} />
+        </div>
         <ReviewCard reviews={props.reviews} id={id} />
       </div>
-      <div className="review-form">
-        <ReviewForm id={id} reviews={props.reviews} />
-      </div>
+
       <div className="back">
         <Link to="/">Back</Link>
       </div>
