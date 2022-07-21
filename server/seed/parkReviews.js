@@ -11,7 +11,7 @@ const main = async () => {
     image:
       'https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/disneyland/attractions/disneyland/sleeping-beauty-castle-walkthrough/sleeping-beauty-castle-exterior-16x9.jpg?1593556896598'
   })
-  disneyland.save()
+  await disneyland.save()
   const sixFlags = await new Park({
     name: 'Six Flags',
     address: '13710 Central Ave, Bowie, MD 20721',
@@ -19,7 +19,7 @@ const main = async () => {
     image:
       'https://sf-static.sixflags.com/wp-content/uploads/2020/04/sfa-coaster.jpg'
   })
-  sixFlags.save()
+  await sixFlags.save()
   const dollywood = await new Park({
     name: 'Dollywood',
     address: '2700 Dollywood Parks Blvd, Pigeon Forge, TN',
@@ -27,7 +27,7 @@ const main = async () => {
     image:
       'https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-03/220328-dollywood-mb-1156-380d7b.jpg'
   })
-  dollywood.save()
+  await dollywood.save()
   const disneyworld = await new Park({
     name: 'Walt Disney World',
     address: '1375 E Buena Vista Dr Orlando, FL',
@@ -35,7 +35,7 @@ const main = async () => {
     image:
       'https://www.travelandleisure.com/thmb/9MPWdqyhl8T8bjI8Q8OA1QCGdjs=/1800x1200/filters:fill(auto,1)/cinderellas-castle-disneyworld-DISPLUSSALE0422-b8989ddbc34f4c2d87c83bf08f498cbd.jpg'
   })
-  disneyworld.save()
+  await disneyworld.save()
   const reviews = [
     {
       name: 'Daniel M.',
@@ -138,6 +138,7 @@ const main = async () => {
   await Review.insertMany(reviews)
 }
 const run = async () => {
+  db.dropDatabase()
   await main()
   db.close()
 }
