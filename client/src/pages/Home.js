@@ -7,13 +7,12 @@ const Home = () => {
 
   useEffect(() => {
     const getParks = async () => {
-      const response = await axios.get('LINKHERE')
-      setParks(response.results)
+      const response = await axios.get('http://localhost:3001/parks')
+      setParks(response.parks)
       // check back on this later
     }
     getParks()
   }, [])
-  
 
   return (
     <div>

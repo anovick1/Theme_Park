@@ -1,7 +1,7 @@
 import './styles/App.css'
-import { Route, Routes } from 'react-router-dom'
 import React, { useState } from 'react'
-import Home from './components/Home'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
 import Header from './components/Header'
 
 const App = () => {
@@ -16,3 +16,5 @@ const App = () => {
     </div>
   )
 }
+
+export default App
