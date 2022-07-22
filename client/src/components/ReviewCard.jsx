@@ -30,7 +30,10 @@ const ReviewCard = (props) => {
       {arr.map((review) => (
         <div className="review-card" key={review.name}>
           <div className="border">
-            <h2>{review.name}</h2>
+            <div className="pfp">
+              <img id="pfp" src={review.pfp} alt="pfp" />
+              <h2>{review.name}</h2>
+            </div>
             <p id="location">{review.location}</p>
           </div>
           <p>{review.text}</p>

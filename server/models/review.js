@@ -8,7 +8,8 @@ const reviewSchema = new Schema(
     park: { type: Schema.Types.ObjectId, ref: 'Park' },
     text: { type: String, required: true },
     date: { type: String, required: true },
-    rating: { type: String, required: true }
+    rating: { type: String, required: true },
+    pfp: { type: String, required: true }
   },
   { timestamps: true }
 )
