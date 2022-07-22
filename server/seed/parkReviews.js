@@ -62,7 +62,7 @@ const main = async () => {
       text: "WOW!!! Who hired the Disney CEO? You have nickeled and dimed us ....... And we still can't get on rides because of the crowds!! The Cast Members must dislike the CEO too as 75% of them need to get some Public Relations Classes and learn how to become 'Disney' again! This is not the 'Happiest Place on Earth' anymore.",
       date: '7/13/2022',
       rating: '1',
-      pfp: 'https://www.pikpng.com/pngl/b/541-5413318_matt-round-png-round-portrait-pic-png-clipart.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQHCi-3KMk0vyg/profile-displayphoto-shrink_800_800/0/1516559659175?e=1663804800&v=beta&t=Mt15FgzG870oKg67t74TaGIAXlWA0dSEwd5QWPd4vu4'
     },
     {
       name: 'David S.',
