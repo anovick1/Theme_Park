@@ -51,44 +51,52 @@ const ReviewForm = (props) => {
   return (
     <div className="form">
       <h1>Add A New Review Listing</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={name}
-          onChange={changeName}
-          name={'name'}
-          placeholder={'name'}
-        />
-        <input
-          type="text"
-          value={location}
-          onChange={changeLocation}
-          name={'location'}
-          placeholder={'hometown'}
-        />
-        <input
-          type="text-area"
-          value={text}
-          onChange={changeText}
-          name={'text'}
-          placeholder={'write review here'}
-        />
-        <input
-          type="text"
-          value={date}
-          onChange={changeDate}
-          name={'date'}
-          placeholder={'date visited'}
-        />
-        <input
-          type="number"
-          value={rating}
-          onChange={changeRating}
-          name={'rating'}
-          placeholder={'rating out of 5'}
-        />
-        <button>Submit</button>
-      </form>
+      <div className="input-div">
+        <form onSubmit={handleSubmit}>
+          <div className="name-town-date">
+            <input
+              type="text"
+              value={name}
+              onChange={changeName}
+              name={'name'}
+              placeholder={'name'}
+            />
+            <input
+              type="text"
+              value={location}
+              onChange={changeLocation}
+              name={'location'}
+              placeholder={'hometown'}
+            />
+            <input
+              type="text"
+              value={date}
+              onChange={changeDate}
+              name={'date'}
+              placeholder={'date visited'}
+            />
+          </div>
+          <textarea
+            type="text-area"
+            value={text}
+            onChange={changeText}
+            name={'text'}
+            placeholder={'write review here'}
+            className="write"
+          />
+          <div className="rating-submit">
+            <input
+              type="number"
+              value={rating}
+              onChange={changeRating}
+              name={'rating'}
+              placeholder={'rating out of 5'}
+              id="rating"
+            />
+            <button id="form-submit">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
   )
 }

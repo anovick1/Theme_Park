@@ -17,12 +17,11 @@ const ParkDetails = (props) => {
   return park ? (
     <div className="detail">
       <div className="detail-header">
+        <h1>{park.name}</h1>{' '}
         <a href={park.url}>
-          <h1>{park.name}</h1>{' '}
+          <img src={park.image} alt={park.name} />
         </a>
-        <img src={park.image} alt={park.name} />
-
-        <h3>Address: {park.address}</h3>
+        <h3>{park.address}</h3>
       </div>
       <div className="reviews">
         <h1>Reviews</h1>
