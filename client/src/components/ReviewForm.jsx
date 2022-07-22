@@ -15,7 +15,8 @@ const ReviewForm = (props) => {
       park: props.id,
       text: text,
       date: date,
-      rating: rating
+      rating: rating,
+      pfp: ''
     })
 
     setName('')

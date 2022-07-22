@@ -53,6 +53,7 @@ h1 {
   margin-bottom: 1vh;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .review-form {
@@ -67,6 +68,7 @@ h1 {
   padding-left: 1vw;
   padding-right: 1vw;
   margin-bottom: 1vh;
+  background-color: white;
 }
 
 .form:hover {
@@ -87,4 +89,16 @@ h1 {
 button:hover {
   background-color: black;
   color: white;
+}
+
+.pfp {
+  display: flex;
+}
+
+.pfp img {
+  height: 9vh;
+  width: 4vw;
+  border: none;
+  margin-top: 1.5vh;
+  margin-right: 1vw;
 }
