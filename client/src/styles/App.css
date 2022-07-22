@@ -98,7 +98,11 @@ button:hover {
 .pfp img {
   height: 9vh;
   width: 4vw;
-  border: none;
+  border: 1px solid black;
+  border-radius: 50%;
   margin-top: 1.5vh;
   margin-right: 1vw;
+}
+#username {
+  margin-top: 4vh;
 }

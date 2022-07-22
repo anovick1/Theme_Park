@@ -16,7 +16,7 @@ const ReviewForm = (props) => {
       text: text,
       date: date,
       rating: rating,
-      pfp: ''
+      pfp: 'https://cdn.create.vista.com/api/media/small/483971320/stock-vector-profile-icon-users-vector-illustration'
     })
 
     setName('')

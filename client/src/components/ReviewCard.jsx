@@ -32,7 +32,7 @@ const ReviewCard = (props) => {
           <div className="border">
             <div className="pfp">
               <img id="pfp" src={review.pfp} alt="pfp" />
-              <h2>{review.name}</h2>
+              <h2 id="username">{review.name}</h2>
             </div>
             <p id="location">{review.location}</p>
           </div>
