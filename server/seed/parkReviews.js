@@ -53,7 +53,7 @@ const main = async () => {
       text: 'The MAGIC began 67 years ago today... Happy birthday  Disneyland The Happiest Place on Earth...is my HAPPY place',
       date: '7/17/2022',
       rating: '5',
-      pfp: 'https://www.pikpng.com/pngl/b/541-5413318_matt-round-png-round-portrait-pic-png-clipart.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQH_Uv8r7668Lw/profile-displayphoto-shrink_800_800/0/1593284538774?e=1663804800&v=beta&t=J5TnfDPIp-RrG-3IfJN4h_Gu6PJnloHoxBe5eHmcMbU'
     },
     {
       name: 'Linda B.',
@@ -89,7 +89,7 @@ const main = async () => {
       text: "If you want to criticize theme parks for not being like a movie, go back to Disney and pay $5000 for a weekend. In lieu of great rides and a responsible staff to keep the rides safe which the young staff at Six Flags America does consistently on every ride, Disney hired 10,000 actors to provide you with the fake world you foolishly think you want to teach to your kids. Six Flags America is not 'ghetto,' as many reviewers have called it, this is normal life, it is a good place.",
       date: '6/28/2022',
       rating: '5',
-      pfp: 'https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQGK2mK9UacYpg/profile-displayphoto-shrink_800_800/0/1651725479683?e=1663804800&v=beta&t=ZuDzYh2LMCVJ5pCUIImQnCHXUR5oFEtrwB-tNu1a64I'
     },
     {
       name: 'Gali S.',
@@ -98,7 +98,7 @@ const main = async () => {
       text: "Such a wonderful and enjoyable time my husband and I had today and we will be back tomorrow. Dolly you have made this park magical to me at my age of 63. I rode my first roller coaster since my late 50's and more than anything was the shows which we fabulous. We got to see a rain storm that was special being from AZ and saw Dolly's story 'Heartstrings' and it was raining in the theater which it was supposed to but then when it was over it was still raining but outside. We laughed because we thought it was part of the show. Thanks Dolly! Wished you were here to meet you and who knows someday I hope I do.  Food was filling and liked you",
       date: '7/18/2022',
       rating: '5',
-      pfp: 'https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C4D03AQEoEq-lRrre_Q/profile-displayphoto-shrink_800_800/0/1588615880800?e=1663804800&v=beta&t=ORabOXDTjS_nbaRmUxtbQDUUoXsLpaFPsYPRMExFTes'
     },
     {
       name: 'Carlena P.',
@@ -107,7 +107,7 @@ const main = async () => {
       text: "One of the most beautiful family parks I've ever visited.  The fireworks and drone show was awesome.  I really enjoyed the team of people working and learning together, all the shops were delightful.  I will be bring the family back as soon as possible.",
       date: '7/20/2022',
       rating: '5',
-      pfp: 'https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C5603AQEMoern61m8Fg/profile-displayphoto-shrink_800_800/0/1610131601126?e=1663804800&v=beta&t=KiMrZJPjqRXxlRRR3CoDjqWu6uCLnD36No07zvlTHhY'
     },
     {
       name: 'Dusty S.',
@@ -116,7 +116,7 @@ const main = async () => {
       text: 'This was a terrible experience.  The park was utterly oversold and there were way too many people.   Hours long waits for rides.   At least a 40 minute wait for snacks.  We were only able to ride a few less popular rides and spent most of our time waiting in lines. The end result was two exhausted parents and two very disappointed kids. A heartbreaking day to be sure.',
       date: '3/30/2022',
       rating: '1',
-      pfp: 'https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C5603AQGzMFSWpL4KCw/profile-displayphoto-shrink_400_400/0/1588019000866?e=1663804800&v=beta&t=kTQhGVPRL9WYv9o9GkxHtmKxwYn-c9INPNmTFYzqTNg'
     },
     {
       name: 'Mandesa N.',
@@ -125,7 +125,7 @@ const main = async () => {
       text: ' just does not feel the same as I remember growing up. Although this was my husbands first visit to WDW we still enjoyed!  All the characters we encountered were engaging. Clean parks as usual and good funnel cakes.',
       date: '7/20/2022',
       rating: '4',
-      pfp: 'https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C4E03AQHSm4ZJ7c91fA/profile-displayphoto-shrink_800_800/0/1517734114550?e=1663804800&v=beta&t=YX2taS4N3lE2xkCD4JwqsySdNO2JWk4bRcggdtK-Mn4'
     },
     {
       name: 'Chris M.',
@@ -134,7 +134,7 @@ const main = async () => {
       text: 'Overpriced. Not accommodating. Shockingly few healthy options for a family. Lost their way of family focus and values.',
       date: '7/16/2022',
       rating: '1',
-      pfp: 'https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C5603AQF7lYYTtn2ppQ/profile-displayphoto-shrink_800_800/0/1627838533451?e=1663804800&v=beta&t=nwz1fauInLa-IBOx9PzyoQ2VJcrrUSWEVcZ1haSG6rE'
     },
     {
       name: 'Stan C.',
@@ -143,7 +143,7 @@ const main = async () => {
       text: 'Incredible Resort. 4 Theme Parks and 2 Water Parks. Food is amazing everywhere you go. The Cast Members are  helpful and polite. Resort Hotels are amazing. Unbeatable summer vacation resort.',
       date: '6/25/2022',
       rating: '5',
-      pfp: 'https://www.vhv.rs/dpng/d/420-4205588_walker-circle-person-circle-png-transparent-png.png'
+      pfp: 'https://media-exp1.licdn.com/dms/image/C5603AQHH2PHd9QAHXQ/profile-displayphoto-shrink_800_800/0/1625247806814?e=1663804800&v=beta&t=lBWB5Oqbp8wRwjyFcBHLq8JBKavJ8Wd_ohdRjd85Zkw'
     }
   ]
 
