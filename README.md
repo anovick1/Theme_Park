@@ -14,7 +14,7 @@
 
 #### _Description_
 
-For this =Hackathon=, our group was tasked with creating a theme park themed Full Stack Application in a day and a half by incorporating a ==React frontend, a MongoDB database, and a Mongoose/Express backend.==
+For this ==Hackathon==, our group was tasked with creating a theme park themed Full Stack Application in a day and a half by incorporating a ==React frontend, a MongoDB database, and a Mongoose/Express backend.==
 
 We created a Theme Park Review Website that includes real Yelp reviews for the following parks:
 
