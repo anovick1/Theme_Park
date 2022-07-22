@@ -1,86 +1,98 @@
 # Full Stackathon: Theme Park Review Website
-## Date: 07/22/2022
-#### By: Anaflavia Almendras, Avery Novick, and Yangtsel Sherap
 
+## Date: 07/22/2022
+
+#### By: Anaflavia Almendras, Avery Novick, and Yangtsel Sherap
 
 **[Deployed Website](ADD HEROKU LINK HERE) **
 
-***
+---
+
 ![Image](https://www.oliverwyman.com/careers/apply/case-studies/images/wumbleworld_banner.png)
-***
 
-#### *Description*
+---
 
-For this ==Hackathon==, our group was tasked with creating a theme park themed Full Stack Application in a day and a half by incorporating a ==React frontend, a MongoDB database, and a Mongoose/Express backend.==
+#### _Description_
+
+For this =Hackathon=, our group was tasked with creating a theme park themed Full Stack Application in a day and a half by incorporating a ==React frontend, a MongoDB database, and a Mongoose/Express backend.==
 
 We created a Theme Park Review Website that includes real Yelp reviews for the following parks:
-* Disneyworld
-* Disneyland
-* Six Flags
-* Dollywood
+
+- Disneyworld
+- Disneyland
+- Six Flags
+- Dollywood
 
 Our website also includes a feature that allows users to write their own review for any of the listed parks. View the project [here](ENTER HERUKO LINK).
 
-###### *Deployed Homepage*
+###### _Deployed Homepage_
+
 ![Image](Images/DeployedHomepage.png)
 
-###### *Deployed Review Page*
+###### _Deployed Review Page_
+
 ![Image](Images/Deployedform.png)
 
+---
 
-***
-#### *Technologies Used*
-* React.js
-* MongoDB
-* Mongoose/Express
-* Javascript
-* Node.js
-* CSS
-* HTML
-* Heroku
-* Atlas
-***
+#### _Technologies Used_
 
-#### *Project Overview*
+- React.js
+- MongoDB
+- Mongoose/Express
+- Javascript
+- Node.js
+- CSS
+- HTML
+- Heroku
+- Atlas
+
+---
+
+#### _Project Overview_
 
 Once the user lands on the home page of Theme Park reviews, they can select from the four theme park cards shown to leave their honest review of their visit or simply to checkout other reviews. Once at the theme park page they can add a review by listing their name, hometown, date, rating and their opinions about the park. The review will be added to the bottom of the list. The user can also click on the park image at the very top and it will redirected them to the parks main website.
 
-We created an Entity Relationship Diagram and Component Hierarchy Diagram shown in the screenshots section. 
+We created an Entity Relationship Diagram and Component Hierarchy Diagram shown in the screenshots section.
 
 ---
+
 ### **_Screenshots_**
+
 #### **Entity Relationship Diagram**
+
 ![Image](Images/ERD.png)
+
 #### **Component Hierarchy Diagram**
+
 ![Image](Images/ComponentHierarchy.png)
+
 #### **Preliminary Layouts of Blog**
+
 ![Image](Images/Homepage.jpg)
 
-![Image](Images/Reviewpage.jpg)
+## ![Image](Images/Reviewpage.jpg)
+
 ---
 
-***
+#### _Future Updates_
 
-#### *Future Updates*
 - [x] Replace numerical review rating with star emoticons
-- [x] Include a stock photo for every new review 
+- [x] Include a stock photo for every new review
 - [ ] Give reviewers the ability to attach their own photo/video
 - [ ] Use Yelp's API
 - [ ] Add live tweets
 
-***
+---
 
-#### ***Resources***
-* Draw.io
-* Heroku
+#### **_Resources_**
 
-***
- 
+- Draw.io
+- Heroku
 
+---
 
-
-
-<!-- 
+<!--
 
 # Getting Started with Create React App
 
