@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     const getParks = async () => {
-      const response = await axios.get('http://localhost:3001/parks')
+      const response = await axios.get('/parks')
       setParks(response.data)
       // check back on this later
     }
@@ -20,7 +20,7 @@ const App = () => {
   }, [])
   useEffect(() => {
     const getReviews = async () => {
-      const response = await axios.get('http://localhost:3001/reviews')
+      const response = await axios.get('/reviews')
       setReviews(response.data)
       // check back on this later
     }

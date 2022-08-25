@@ -9,7 +9,7 @@ const ReviewForm = (props) => {
   const [rating, setRating] = useState('')
 
   const addReview = async (e) => {
-    await axios.post('http://localhost:3001/reviews/' + props.id, {
+    await axios.post('/reviews/' + props.id, {
       name: name,
       location: location,
       park: props.id,
