@@ -4,7 +4,7 @@
 
 #### By: Anaflavia Almendras, Avery Novick, and Yangtsel Sherap
 
-**[Deployed Website](ADD HEROKU LINK HERE) **
+### [Deployed Website](https://themeparkreviewsnovick.web.app/)
 
 ---
 
@@ -23,7 +23,7 @@ We created a Theme Park Review Website that includes real Yelp reviews for the f
 - Six Flags
 - Dollywood
 
-Our website also includes a feature that allows users to write their own review for any of the listed parks. View the project [here](ENTER HERUKO LINK).
+Our website also includes a feature that allows users to write their own review for any of the listed parks. View the project [here](https://themeparkreviewsnovick.web.app/).
 
 ###### _Deployed Homepage_
 
