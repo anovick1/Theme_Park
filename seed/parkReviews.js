@@ -4,6 +4,8 @@ const { Park, Review } = require('../models')
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {
+  Park.collection.drop()
+  Review.collection.drop()
   const disneyland = await new Park({
     name: 'Disneyland',
     address: '1313 Disneyland Dr Anaheim, CA',
@@ -150,7 +152,6 @@ const main = async () => {
   await Review.insertMany(reviews)
 }
 const run = async () => {
-  db.dropDatabase()
   await main()
   db.close()
 }
